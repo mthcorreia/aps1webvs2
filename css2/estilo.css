@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 2560px) {
+    div {
+        width: 24%;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #img_noticia {
+        width: 256px;
+        height: 212px;
+    }
+
+    #texto {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1920px) {
+    div {
+        width: 24%;
+        padding-top: 20px;
+    }
+
+    #img_noticia {
+        width: 256px;
+        height: 212px;
+    }
+
+    #texto {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1280px) {
+    div {
+        width: 33%;
+        padding-top: 20px;
+    }
+
+    #img_noticia {
+        width: 256px;
+        height: 212px;
+    }
+
+    #texto {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 850px) {
+    div {
+        width: 49%;
+        padding-top: 20px;
+    }
+
+    #img_noticia {
+        width: 256px;
+        height: 212px;
+    }
+
+    #texto {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    div {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    #img_noticia {
+        width: 256px;
+        height: 212px;
+    }
+
+    #texto {
+        font-size: 20px;
+    }
+}
+
+
+#geral {
+    background-color: gray;
+    width: 100%;
+}
+
+#foto {
+    border-radius: 50%;
+    border: 3px solid white;
+    width: 200px;
+}
+
+#text_principal{
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left: 400px;   
+    color: white; 
+}
+
+#materias{
+    position: absolute;
+    left:30px;
+    top: 290px;
+    color: white;
+}
+
+#tabela{
+    position: absolute;
+    left: 400px; 
+    top: 290px;
+    color: white;
+}
+
+#avaliacao{
+    color: white;
+    position: absolute;
+    top: 500px;
+    left:30px;
+}
+
+#forms{
+    color: white;
+    position: absolute;
+    top: 500px;
+    left: 400px; 
+}
+
+#comBordaSimples {
+    border-collapse: collapse;
+}
+ 
+#comBordaSimples td {
+    border: 1px solid whitesmoke;
+
+}
+ 
+#comBordaSimples th {
+    border: 1px solid whitesmoke;
+}
+
+#title{
+    background-color:  gray(80, 22, 134);
+}
+
+#text_principal2{
+    font-weight: bold;
+    position: absolute;
+    top: 90px;
+    left: 450px;    
+    color: white; 
+}
+
+#botao{
+    position: absolute;
+    top: 140px; 
+    left: 525px;  
+    background-color:white;
+    border: solid;
+    color: gray;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+}
+
+#botao2{
+    position: absolute;
+    background-color:white;
+    border: solid;
+    color: gray;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+}
